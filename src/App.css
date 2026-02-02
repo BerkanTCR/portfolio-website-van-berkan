@@ -1,0 +1,307 @@
+html,
+body,
+#root {
+    background-color: #00020C;
+
+}
+
+.Navigationbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100px
+}
+
+.Navigationlist {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 25px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.Logo {
+    border: 1px solid hsla(0, 0%, 50%, 0.159);
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.h1homepagina {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+
+}
+
+.h1projectpagina {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.h1projectdetailpagina {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.h1overmijpagina {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.h1contactpagina {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.StandardBerkanBoxContainer {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+
+
+}
+
+.StandardBerkanBox {
+    background-color: #03011799;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 515px;
+
+}
+
+.homepagebackgroundcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.homepagebackground {
+    height: 500px;
+    width: 500px;
+}
+
+.overmijpaginacontainer {
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    height: 523px;
+}
+
+.h1BerkanAltinkaya {
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.projectdetailcontainer {
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    height: 523px;
+}
+
+.foto-voor-ouderavond {
+    margin-top: 35px;
+    width: 350px;
+    height: 450px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.contact-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    margin-left: 100px;
+
+}
+
+.contact-form label {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    display: flex;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.contact-form button {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #00420a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.contact-form button:hover {
+    background-color: #000000;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.contact-pagina-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 23px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: white;
+    margin: 0px;
+
+}
+
+.povermij {
+    margin-top: 35px;
+    display: flex;
+    font-size: 24px;
+    padding-right: 100px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    position: absolute;
+    right: 120px;
+}
+
+.frame-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* dit is een template die ik voortaan ga gebruiken als ik [] [] [] wil */
+    gap: 100px;
+    /*   [] [] []  */
+}
+
+.project-card-layout {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* shift left by half of own width to center */
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+
+}
+
+.terug-layout {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+    transform: translateX(-50%);
+    /* shift left by half of own width to center */
+    text-align: center;
+}
+
+.project-card-image {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.projectdetail-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
