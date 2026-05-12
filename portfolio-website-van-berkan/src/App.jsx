@@ -12,7 +12,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-van-berkan">
         <Navigationbar />
         <Routes>
           <Route path="/" element={<Homepagina />} />
