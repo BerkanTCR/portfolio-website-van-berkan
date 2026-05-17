@@ -3,7 +3,7 @@ const Icons = () => {
         <>
 
             <div className="icons-container">
-                <a href="https://github.com/BerkanTCR" target="_blank"><img className="icon" src="/images/github.png" alt="" /></a>
+                <a href="https://github.com/BerkanTCR" target="_blank"><img className="icon" src="/portfolio-website-van-berkan/images/github.png" alt="" /></a>
             </div>
 
         </>

@@ -16,7 +16,7 @@ const OverMijPaginaContainer = () => {
                     mijn vaardigheden verder te ontwikkelen en<br></br>
                     praktijkervaring op te doen in de wereld van<br></br>
                     softwareontwikkeling.</p>
-                <img className="foto-voor-ouderavond" src="../images/fotovoorouderavond.jpg" alt="" />
+                <img className="foto-voor-ouderavond" src="/portfolio-website-van-berkan/images/fotovoorouderavond.jpg" alt="" />
             </div >
 
         </>
