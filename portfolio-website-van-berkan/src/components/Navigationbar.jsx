@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-
+import DigitalClock from './DigitalClock';
 const Navigationbar = () => {
     return (
         <>
@@ -8,6 +8,7 @@ const Navigationbar = () => {
                 <div className="logo-container">
                     <a href="Homepagina"><img className="Logo" src="/portfolio-website-van-berkan/images/logo.png" alt="" /></a>
                 </div>
+
                 <ul className="Navigationlist">
                     <li className="Navigationitem"> <Link to="/Homepagina">Home</Link></li>
                     <li className="Navigationitem"> <Link to="/Projectpagina">Projecten</Link></li>
