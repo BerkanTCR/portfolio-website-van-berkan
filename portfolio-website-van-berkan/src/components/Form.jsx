@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
 const Form = () => {
 
     const form = useRef();
@@ -14,7 +13,7 @@ const Form = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCES!');
+                    alert("SUCCES")
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -42,7 +41,6 @@ const Form = () => {
                     <button type="submit">Verzend</button>
                 </form>
             </div>
-
         </>
     );
 };
